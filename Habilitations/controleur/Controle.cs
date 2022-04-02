@@ -14,15 +14,15 @@ namespace Habilitations.controleur
         /// <summary>
         /// fenêtre d'authentification
         /// </summary>
-        private FrmHabilitations frmHabilitations;
+        private FrmAuthentification frmAuthentification;
 
         /// <summary>
         /// Ouverture de la fenêtre
         /// </summary>
         public Controle()
         {
-            frmHabilitations = new FrmHabilitations(this);
-            frmHabilitations.ShowDialog();
+            frmAuthentification = new FrmAuthentification(this);
+            frmAuthentification.ShowDialog();
         }
 
         /// <summary>
