@@ -36,6 +36,7 @@ namespace Habilitations.controleur
         {
             if (AccesDonnees.ControleAuthentification(nom, prenom, pwd))
             {
+                frmAuthentification.Hide();
                 (new FrmHabilitations(this)).ShowDialog();
                 return true;
             }
